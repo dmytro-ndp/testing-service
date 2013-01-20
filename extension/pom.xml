@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.ndp.psylab</groupId>
-  <artifactId>domain</artifactId>
+  <artifactId>extension</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>domain</name>
+  <name>extension</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -19,27 +19,6 @@
       <artifactId>parent</artifactId>
       <version>0.1-SNAPSHOT</version>
    </parent>  
-
-    <build>  
-     <plugins>  
-      <plugin>  
-       <groupId>org.codehaus.mojo</groupId>  
-       <artifactId>exec-maven-plugin</artifactId>  
-       <version>1.1.1</version>  
-       <executions>  
-        <execution>  
-         <phase>test</phase>  
-         <goals>  
-          <goal>java</goal>  
-         </goals>  
-         <configuration>  
-          <mainClass>com.ndp.psylab.domain.App</mainClass>  
-         </configuration>  
-        </execution>  
-       </executions>  
-      </plugin>  
-     </plugins>  
-    </build>  
 
 
 </project>

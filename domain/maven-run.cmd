@@ -1,0 +1,1 @@
+mvn install > log.txt
